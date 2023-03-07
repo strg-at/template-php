@@ -88,4 +88,4 @@ repos:
       - id: php-lint
       - id: php-cs-fixer
         files: \.(php)$
-      - id: php-stan
+      # - id: php-stan

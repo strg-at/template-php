@@ -88,4 +88,5 @@ repos:
       - id: php-lint
       - id: php-cs-fixer
         files: \.(php)$
-      # - id: php-stan
+      # not suited for cms projects
+      - id: php-stan

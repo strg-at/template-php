@@ -1,0 +1,29 @@
+# ---
+# name: php app qa workflow
+
+# on:
+#   push:
+#     branches: ["main"]
+#   pull_request:
+#     branches: ["main"]
+
+# env:
+#   PHP_VERSION: "8.1"
+
+# jobs:
+#   build:
+#     runs-on:
+#       - self-hosted
+#       - <PROJECT-RUNNER> # if not exist, use strg-infra
+
+#     steps:
+#       # https://github.com/marketplace/actions/checkout
+#       - name: checkout
+#         uses: actions/checkout@v3.3.0
+
+#       # https://github.com/marketplace/actions/setup-php-action
+#       - name: Setup PHP with tools
+#         uses: shivammathur/setup-php@2.24.0
+#         with:
+#           php-version: ${{ env.PHP_VERSION }}
+#           tools: phplint, php-cs-fixer, phpstan

@@ -1,3 +1,2 @@
 *.sops.*
 composer.lock
-composer.json
